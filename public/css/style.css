@@ -1,0 +1,63 @@
+#youtubeInput{
+    border-radius: 25px;
+    width: 350px;
+    margin-left: 30%;
+    background: gray;
+    margin-top: 5%
+}
+
+.nav{
+    background: black;
+    margin-top: -3%
+}
+
+#youtubeSubmit{
+    margin-left: 50%;
+    border-radius: 25px;
+    background: black
+}
+
+#urlSubmit{
+    margin-left: 50%;
+    border-radius: 25px;
+    background: black
+}
+
+#urlInput{
+    border-radius: 25px;
+    width: 350px;
+    margin-left: 30%;
+    background: gray;
+    margin-top: 5%
+}
+
+#mapInput{
+    border-radius: 25px;
+    width: 350px;
+    margin-left: 30%;
+    background: gray;
+    margin-top: 5%
+}
+
+#mapSubmit{
+    margin-left: 50%;
+    border-radius: 25px;
+    background: black
+}
+
+#jumbotron{
+    font-family: 'Sigmar One', cursive;
+
+}
+
+html, body{
+    height:100%
+}
+#title{
+    font-size: 75px
+}
+
+#map{
+    height:100%;
+    width: 100%;
+}

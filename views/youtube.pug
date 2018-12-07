@@ -1,27 +1,57 @@
+script.
+  key='#{key}'
 doctype html
 head
   meta(charset='UTF-8')
   meta(name='viewport' content='width=device-width, initial-scale=1.0')
   meta(http-equiv='X-UA-Compatible' content='ie=edge')
-  title Home
+  title youtube
   link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css' integrity='sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm' crossorigin='anonymous')
   link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css')
   link(href='https://fonts.googleapis.com/css?family=Dosis|Sigmar+One' rel='stylesheet')
   link(rel='stylesheet' href='/css/style.css')
 body
 include includes/header
-ul#navBar.nav.nav-pills
+ul.nav.nav-pills
   li.nav-item
-    a.nav-link.active(href='/') Home
+    a.nav-link(href='/') Home
   li.nav-item
     a.nav-link(href='/maps') Maps
   li.nav-item
-    a.nav-link(href='/youtube') Youtube
+    a.nav-link.active(href='/youtube') Youtube
   li.nav-item
     a.nav-link(href='/url') URL Shortener
+
+#textButton.container
+  .row
+    input#youtubeInput(type='text')
+  .row
+    button#youtubeSubmit.waves-effect.waves-light.btn(type='button') Submit
+  div#output
+
+
+#videoFields.containter
+  #row1.row
+    .col-sm-6
+    .col-sm-6
+  #row2.row
+    .col-sm-6
+    .col-sm-6
+  #row3.row
+    .col-sm-6
+    .col-sm-6
+  #row4.row
+    .col-sm-6
+    .col-sm-6
+  #row5.row
+    .col-sm-6
+    .col-sm-6
+
+
 
 script(src='https://code.jquery.com/jquery-3.3.1.min.js' integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=' crossorigin='anonymous')
 script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js' integrity='sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q' crossorigin='anonymous')
 script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js' integrity='sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl' crossorigin='anonymous')
+script(src="/scripts/youtube.js")
 script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js')
-//- script(src="index.js")
+//- script(async='' defer='' src='https://apis.google.com/js/api.js' onload='this.onload=function(){};handleClientLoad()' onreadystatechange="if (this.readyState === 'complete') this.onload()")
