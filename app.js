@@ -27,9 +27,6 @@ app.get('/youtube', (req, res) => {
     })
 })
 
-app.get('/url', (req, res) => {
-    res.render('url.pug')
-});
 
 app.get('/maps', (req, res) => {
     res.render('maps', {

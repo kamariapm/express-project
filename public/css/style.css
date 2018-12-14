@@ -61,3 +61,23 @@ html, body{
     height:100%;
     width: 100%;
 }
+
+#videoFields{
+    padding: 5%
+}
+
+.vids{
+    margin-left: 37%;
+    background: black;
+    margin-top: 2%;
+    border-radius: 25px
+}
+
+.pics{
+    margin-left: 30%;
+}
+
+img{
+    height: 25%;
+    width: 50%
+}
